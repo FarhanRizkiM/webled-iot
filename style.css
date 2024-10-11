@@ -4,7 +4,7 @@
 html {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     cursor: url('/assets/cursor.png'), auto;
     font-family: "Titillium Web", sans-serif;
 }
@@ -31,8 +31,8 @@ html {
 .items {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 150px);
-    overflow-y: scroll;
+    height: calc(100vh - 120px);
+    overflow-y: auto;
     padding: 32px;
     gap: 16px;
 }
